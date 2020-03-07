@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "851749016935",
+    "firebase_url": "https://tikt-2292d.firebaseio.com",
+    "project_id": "tikt-2292d",
+    "storage_bucket": "tikt-2292d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:851749016935:android:59cd71ada549e429734bc2",
+        "android_client_info": {
+          "package_name": "com.example.train"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "851749016935-olcpkh2ruhugasij7ijoe52vbdm35aco.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXV88FspyDjpQrdZTov6wjYBpikTqusMY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "851749016935-olcpkh2ruhugasij7ijoe52vbdm35aco.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

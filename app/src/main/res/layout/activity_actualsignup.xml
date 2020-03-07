@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".actualsignup">
+
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.441"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.089"
+        app:srcCompat="@drawable/logo" />
+
+    <EditText
+        android:id="@+id/mobnum"
+        android:layout_width="302dp"
+        android:layout_height="71dp"
+        android:background="@drawable/ps"
+        android:drawableLeft="@drawable/phone"
+        android:drawablePadding="20dp"
+        android:ems="10"
+        android:hint="Mobile Number"
+        android:inputType="phone"
+        android:paddingStart="25dp"
+
+        android:paddingLeft="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.548" />
+
+    <EditText
+        android:id="@+id/passwrd"
+        android:layout_width="297dp"
+        android:layout_height="64dp"
+        android:background="@drawable/number"
+        android:drawableLeft="@drawable/lock"
+        android:drawablePadding="20dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:paddingStart="25dp"
+        android:paddingLeft="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.468"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.675" />
+
+    <EditText
+        android:id="@+id/confrmpass"
+        android:layout_width="292dp"
+        android:layout_height="63dp"
+        android:layout_marginBottom="128dp"
+        android:background="@drawable/number"
+        android:drawableLeft="@drawable/lock"
+        android:drawablePadding="20dp"
+        android:ems="10"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        android:paddingStart="25dp"
+        android:paddingLeft="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.478"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/passwrd" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="301dp"
+        android:layout_height="80dp"
+        android:background="@drawable/ps"
+        android:drawableLeft="@drawable/man"
+        android:drawablePadding="20dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:paddingStart="25dp"
+        android:paddingLeft="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.478"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.385" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="36dp"
+        android:background="@drawable/button"
+        android:text="Sign Up"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/confrmpass"
+        app:layout_constraintVertical_bias="0.833" />
+</androidx.constraintlayout.widget.ConstraintLayout>
